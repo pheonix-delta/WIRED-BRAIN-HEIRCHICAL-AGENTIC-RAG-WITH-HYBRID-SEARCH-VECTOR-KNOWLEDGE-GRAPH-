@@ -219,22 +219,54 @@ Complete 15-page technical paper
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 **Gate Distribution**
 ![Gate Distribution](docs/images/fig1_gate_distribution.png)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 **Quality Distribution**
 ![Quality Distribution](docs/images/fig2_quality_distribution.png)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 **Scale Comparison**
 ![Scale Comparison](docs/images/fig3_scale_comparison.png)
+
+</td>
+<td align="center" width="25%">
+
+**Pipeline Stages**
+![Pipeline Stages](docs/images/fig4_pipeline_stages.png)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="25%">
+
+**Hybrid Retrieval**
+![Hybrid Retrieval](docs/images/fig5_hybrid_retrieval.png)
+
+</td>
+<td align="center" width="25%">
+
+**SetFit Routing**
+![SetFit Routing](docs/images/fig6_setfit_routing.png)
+
+</td>
+<td align="center" width="25%">
+
+**Latency Efficiency**
+![Latency Efficiency](docs/images/fig7_latency_efficiency.png)
+
+</td>
+<td align="center" width="25%">
+
+**Entity Distribution**
+![Entity Distribution](docs/images/fig8_entity_distribution.png)
 
 </td>
 </tr>
@@ -314,7 +346,6 @@ Processing 693K chunks on GTX 1650 (4GB VRAM) required careful optimization:
 ![Pipeline Stages](docs/images/fig4_pipeline_stages.png)
 
 ---
-
 
 ## 🚀 Quick Start
 

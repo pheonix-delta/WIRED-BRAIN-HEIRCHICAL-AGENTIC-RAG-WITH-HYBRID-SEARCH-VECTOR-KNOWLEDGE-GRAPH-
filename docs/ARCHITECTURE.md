@@ -2,10 +2,11 @@
 
 ## Table of Contents
 1. [System Overview](#system-overview)
-2. [3-Stage Intent Routing](#3-stage-intent-routing)
-3. [Hierarchical Addressing](#hierarchical-addressing)
-4. [Hybrid Retrieval System](#hybrid-retrieval-system)
-5. [Code Usage Examples](#code-usage-examples)
+2. [Diagram Gallery](#diagram-gallery)
+3. [3-Stage Intent Routing](#3-stage-intent-routing)
+4. [Hierarchical Addressing](#hierarchical-addressing)
+5. [Hybrid Retrieval System](#hybrid-retrieval-system)
+6. [Code Usage Examples](#code-usage-examples)
 
 ---
 
@@ -18,6 +19,21 @@ WiredBrain is a hierarchical RAG system that solves the "lost in the middle" pro
 - WiredBrain: 693K chunks → Intent routing → Gate filtering → 20 chunks → LLM (fast, accurate)
 
 **Key Innovation:** Reduce search space by 99.997% BEFORE vector search using hierarchical addressing.
+
+---
+
+## Diagram Gallery
+
+- [docs/diagrams/01_architecture.md](docs/diagrams/01_architecture.md) - End-to-end architecture overview.
+- [docs/diagrams/02_routing_fallback.md](docs/diagrams/02_routing_fallback.md) - 3-stage routing fallback logic.
+- [docs/diagrams/03_search_reduction.md](docs/diagrams/03_search_reduction.md) - Search-space reduction curve.
+- [docs/diagrams/04_pipeline.md](docs/diagrams/04_pipeline.md) - 6-stage data pipeline summary.
+- [docs/diagrams/05_hybrid_retrieval.md](docs/diagrams/05_hybrid_retrieval.md) - Hybrid fusion flow.
+- [docs/diagrams/06_knowledge_graph.md](docs/diagrams/06_knowledge_graph.md) - Knowledge graph structure.
+- [docs/diagrams/07_setfit_router_training.md](docs/diagrams/07_setfit_router_training.md) - SetFit router training + runtime path.
+- [docs/diagrams/08_runtime_query_sequence.md](docs/diagrams/08_runtime_query_sequence.md) - Runtime query sequence across components.
+- [docs/diagrams/09_db_population_and_indexes.md](docs/diagrams/09_db_population_and_indexes.md) - DB population + indexing strategy.
+- [docs/diagrams/10_optimization_feedback_loop.md](docs/diagrams/10_optimization_feedback_loop.md) - Optimization and evaluation loop.
 
 ---
 

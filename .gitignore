@@ -31,3 +31,8 @@ node_modules/
 *.egg-info/
 dist/
 build/
+
+# Ignore accidental nested home directory
+home/
+
+/home/user/Desktop/WiredBrain/WiredBrain-RAG/docs/internal
