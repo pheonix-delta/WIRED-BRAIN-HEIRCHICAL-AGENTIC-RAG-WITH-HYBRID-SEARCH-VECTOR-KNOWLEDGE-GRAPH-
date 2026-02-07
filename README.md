@@ -16,13 +16,15 @@
 <div align="center">
 
 > 🤖 **CHECK OUT VOICE AGENT :** [Axiom (Low-Latency-400 ms - Agent)](https://github.com/pheonix-delta/axiom-voice-agent)
-
+--
 
 > 🚀 **Update:** Trending on r/LocalLLaMA & r/selfhosted!
 > **Adoption:** 50+ Clones in 24h | **Status:** v1.0 (Lightweight Edge-Optimized)
 >
+--
 > 🧪 **Research Status:** This is the *fast* implementation. The **Full "Fuzzy Router" Architecture** (Graph Fusion + Multi-Pathing) is currently under **Preprint/Journal Review**.
 >
+--
 > ⭐ **Star this repo!** > *(Help us prove to the industry that running 693k chunks on a GTX 1650 isn't "impossible"—it's just efficient.)*
 > 
 </div>
