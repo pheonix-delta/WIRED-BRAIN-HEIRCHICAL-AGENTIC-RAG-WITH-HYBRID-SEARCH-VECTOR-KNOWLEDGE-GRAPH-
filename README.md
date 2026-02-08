@@ -11,6 +11,7 @@
 
 [![Paper](https://img.shields.io/badge/Read_Paper-PDF-red.svg?style=for-the-badge)](docs/WiredBrain_Research_Paper.pdf)
 [![TRM Report](https://img.shields.io/badge/TRM_Report-PDF-blueviolet.svg?style=for-the-badge)](TRM_Technical_Report.pdf)
+[![TRM DOI](https://img.shields.io/badge/TRM_DOI-10.13140/RG.2.2.21779.13600-blueviolet.svg?style=for-the-badge)](https://doi.org/10.13140/RG.2.2.21779.13600)
 [![DOI](https://img.shields.io/badge/DOI-10.13140/RG.2.2.25652.31363-blue.svg?style=for-the-badge)](https://doi.org/10.13140/RG.2.2.25652.31363)
 
 </div>
@@ -96,6 +97,10 @@ We present **WiredBrain**, a novel hierarchical RAG architecture that addresses 
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="docs/images/fig9_trm_metrics.png" alt="TRM Metrics" width="100%">
+</p>
 
 ### Results at a Glance
 
