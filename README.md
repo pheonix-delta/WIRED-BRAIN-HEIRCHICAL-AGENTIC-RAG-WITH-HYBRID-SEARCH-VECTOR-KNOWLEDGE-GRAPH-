@@ -10,6 +10,7 @@
 <br>
 
 [![Paper](https://img.shields.io/badge/Read_Paper-PDF-red.svg?style=for-the-badge)](docs/WiredBrain_Research_Paper.pdf)
+[![TRM Report](https://img.shields.io/badge/TRM_Report-PDF-blueviolet.svg?style=for-the-badge)](TRM_Technical_Report.pdf)
 [![DOI](https://img.shields.io/badge/DOI-10.13140/RG.2.2.25652.31363-blue.svg?style=for-the-badge)](https://doi.org/10.13140/RG.2.2.25652.31363)
 
 </div>
