@@ -3,6 +3,7 @@ data/full_dataset/
 *.csv
 *.json
 !data/samples/sample_data.json  # Do NOT ignore the sample
+!trm_proofs/*.json              # Do NOT ignore research proofs
 
 # Ignore Models
 *.gguf
@@ -24,6 +25,7 @@ node_modules/
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+docs/*.tex
 
 # Python
 *.pyc

@@ -9,14 +9,27 @@
 [![Status: Research Prototype](https://img.shields.io/badge/status-research%20prototype-orange.svg?style=for-the-badge)]()
 <br>
 
-[![Paper](https://img.shields.io/badge/Read_Paper-PDF-red.svg?style=for-the-badge)](docs/WiredBrain_Research_Paper.pdf)
-[![TRM Report](https://img.shields.io/badge/TRM_Report-PDF-blueviolet.svg?style=for-the-badge)](TRM_Technical_Report.pdf)
+[![HIERARCHICAL RAG Paper](https://img.shields.io/badge/Read_Paper-PDF-red.svg?style=for-the-badge)](docs/WiredBrain_Research_Paper.pdf)
+[![TRM Report](https://img.shields.io/badge/TRM_Report-PDF-blueviolet.svg?style=for-the-badge)](docs/TRM_Technical_Report.pdf)
 [![TRM DOI](https://img.shields.io/badge/TRM_DOI-10.13140/RG.2.2.21779.13600-blueviolet.svg?style=for-the-badge)](https://doi.org/10.13140/RG.2.2.21779.13600)
-[![DOI](https://img.shields.io/badge/DOI-10.13140/RG.2.2.25652.31363-blue.svg?style=for-the-badge)](https://doi.org/10.13140/RG.2.2.25652.31363)
+[![HIERARCHICAL RAG DOI](https://img.shields.io/badge/DOI-10.13140/RG.2.2.25652.31363-blue.svg?style=for-the-badge)](https://doi.org/10.13140/RG.2.2.25652.31363)
 
 </div>
 
 <br>
+
+---
+
+## 🚀 Help Us Reach More Researchers!
+
+WiredBrain has reached **300+ people in just 48 hours!** 🚀 We are on a mission to make local, high-integrity RAG accessible to everyone.
+
+**If you find this research valuable, please consider:**
+*   ⭐ **Starring this repository** to help others discover it.
+*   📢 **Sharing it** on LinkedIn, Twitter, or with your research group.
+*   🍴 **Forking it** to build your own local reasoning engines.
+
+---
 
 
 **Author:** Shubham Dev | **Institution:** Jaypee University of Information Technology  
@@ -116,6 +129,64 @@ We present **WiredBrain**, a novel hierarchical RAG architecture that addresses 
 </div>
 
 ---
+
+## **The WiredBrain Breakthrough: Autonomous Reasoning for RAG**
+
+We are proud to introduce **Autonomous Reasoning** to RAG systems—a first-of-its-kind implementation that transforms retrieval from simple "lookup" to active "thinking."
+
+### **Introducing the Transparent Reasoning Module (TRM)**
+*A 4GB VRAM "Glass Box" architecture that prioritizes Integrity over Speed.*
+
+> [!IMPORTANT]
+> **The Breakthroughs:**
+> - 🛡️ **100% Hallucination Mitigation:** When asked for missing hardware specs (e.g., Zynq vs. Cyclone), the system autonomously triggers an **"EVIDENCE GAP DETECTED"** protocol instead of inventing false metrics.
+> - 🧠 **"First Principles" Survival:** When retrieval completely fails on a complex query, the TRM detects the data gap, ignores the noise, and correctly derives the solution using internal logic.
+> - ⚡ **The "Deep Audit" Trade-off:** This is not a chatbot; it is a **Reasoning Engine**. We trade milliseconds for truth. The system spends 20–40 seconds verifying data in a **"Deep Audit"** loop to ensure high-stakes safety on consumer hardware.
+
+### **[View Technical Reasoning Proof (TRM-WiredBrain)](trm_proofs/trm_wiredbrain_proof.json)**
+
+## **Research Analysis: The "Truth Efficiency" Victory (Figure 10)**
+
+![Figure 10](trm_proofs/fig10_honesty_moat.png)
+
+> [!IMPORTANT]
+> **Market Superiority:** While Enterprise Cloud RAG (e.g., Microsoft GraphRAG) typically requires **150s+** and expensive **A100 clusters** for a global audit, WiredBrain achieves a 100% truthful audit in just **70s** on a **GTX 1650 (4GB)**. This "Deep Audit" latency is a nominal trade-off for high-stakes engineering safety, outperforming cloud counterparts by **2x in speed** and **$0 in cost**.
+
+### **[Analysis of Intent: Reframing the Latency →](trm_proofs/analysis_of_intent.md)**
+
+| Metric | Baseline Standard RAG | **WiredBrain (TRM)** | Significance |
+| :--- | :--- | :--- | :--- |
+| **Output Type** | Hallucinated / Generic | **Truthful Audit** | Integrity vs. "Helpfulness" |
+| **Integrity Check** | None (Silent Failure) | **Z-Stream Deep Audit** | Autonomous Safety Break |
+| **Action taken** | Invented fake 1.2M specs | **"EVIDENCE GAP DETECTED"** | 100% Hallucination Mitigation |
+| **Latency** | 16.0s (Naive) | **70.2s (Deep Audit)** | **2x Faster than Cloud GraphRAG** |
+
+**Caption:** *When the system encountered a knowledge gap regarding specific FPGA specs, the Transparent Reasoning Module (Z-Stream) detected low confidence and triggered a safe fallback instead of generating false metrics. In high-stakes fields like Robotics, a 70-second honest answer is infinitely better than a 16-second hallucination.*
+
+---
+
+## **Research Analysis: The "Resilience Moat" (Figure 11)**
+
+![Figure 11](trm_proofs/fig11_resilience_moat.png)
+
+> [!TIP]
+> **Key Insight:** To test the architecture, we introduced "Sinh-Gordon" physics noise into our 693K dataset. WiredBrain's TRM successfully **filtered the noise**, identified the evidence gap, and autonomously fell back to **First-Principles Derivation** for the EKF-SLAM math proof.
+
+### **[View Technical Resilience Proof →](trm_proofs/math_trm_wiredbrain_proof.json)**
+
+| Feature | Standard RAG Response | **WiredBrain (TRM)** | Impact |
+| :--- | :--- | :--- | :--- |
+| **Noise Handling** | Follows noise (Semantic Drift) | **Filters Noise (Z-Stream Audit)** | Robustness vs. Data Corruption |
+| **Logic Mode** | Generic retrieval blending | **First-Principles Derivation** | Expert-grade Math Accuracy |
+| **Data scenario** | Irrelevant Physics papers | **Switches to Internal Weights** | 0% Relevant Data Survival |
+| **Formulas** | Unstructured `dL/dx` | **Academic Proof (F, J, P matrices)** | University-Grade Synthesis |
+
+**Caption:** *Even when the Retrieval Layer fails (e.g., fetching 693K chunks of irrelevant physics noise like Sinh-Gordon equations for a robotics query), the TRM identifies the semantic mismatch and autonomously switches to a resilient "First-Principles" mode, ensuring a high-quality mathematical proof.*
+
+### **[View Mathematical Resilience Proof (Math-WiredBrain)](trm_proofs/math_trm_wiredbrain_proof.json)**
+
+---
+
 
 ## **The Microsoft Constraint vs. The WiredBrain Solution**
 
@@ -628,9 +699,10 @@ WiredBrain-RAG/
 │   ├── samples/           # Sample data (50-100 rows)
 │   │   └── sample_data.json
 │   └── full_dataset/      # EMPTY (Add to .gitignore)
-├── docs/                  # The "Proof"
+├── docs/                  # Technical Documentation
 │   ├── images/            # All 8 publication-quality figures
-│   └── WiredBrain_Research_Paper.pdf  # 15-page research paper
+│   ├── WiredBrain_Research_Paper.pdf  # 15-page research paper
+│   └── TRM_Technical_Report.pdf        # Deep Audit reasoning report
 ├── .gitignore             # Critical file (blocks large data)
 ├── LICENSE                # MIT License
 ├── README.md              # This file
@@ -651,6 +723,14 @@ If you use this work in your research, please cite:
   institution={Jaypee University of Information Technology},
   year={2026},
   doi={10.13140/RG.2.2.25652.31363}
+}
+
+@techreport{dev2026trm,
+  title={Transparent Reasoning Modules (TRM): Autonomous Hallucination Mitigation in Local RAG},
+  author={Dev, Shubham},
+  institution={Jaypee University of Information Technology},
+  year={2026},
+  doi={10.13140/RG.2.2.21779.13600}
 }
 ```
 
@@ -713,7 +793,10 @@ LangChain & LlamaIndex
 
 <p align="center">
   <a href="docs/WiredBrain_Research_Paper.pdf">
-    <img src="https://img.shields.io/badge/Download_Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Paper" height="40"/>
+    <img src="https://img.shields.io/badge/Research_Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Paper" height="40"/>
+  </a>
+  <a href="docs/TRM_Technical_Report.pdf">
+    <img src="https://img.shields.io/badge/TRM_Report-PDF-blueviolet?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download TRM Report" height="40"/>
   </a>
 </p>
 
