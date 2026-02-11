@@ -728,20 +728,23 @@ WiredBrain-RAG/
 If you use this work in your research, please cite:
 
 ```bibtex
-@techreport{dev2026wiredbrain,
-  title={WiredBrain: A Hierarchical Multi-Domain RAG Architecture},
-  author={Dev, Shubham},
-  institution={Jaypee University of Information Technology},
-  year={2026},
-  doi={10.13140/RG.2.2.25652.31363}
+@article{Dev2026WiredBrain,
+  title = {WiredBrain: A Hierarchical Multi-Domain RAG Architecture Scaling to 693K Chunks on Consumer Hardware},
+  author = {Dev, Shubham},
+  year = {2026},
+  month = {February},
+  doi = {10.13140/RG.2.2.25652.31363},
+  publisher = {ResearchGate},
+  url = {https://doi.org/10.13140/RG.2.2.25652.31363},
+  note = {Preprint}
 }
 
-@techreport{dev2026trm,
-  title={Transparent Reasoning Modules (TRM): Autonomous Hallucination Mitigation in Local RAG},
-  author={Dev, Shubham},
-  institution={Jaypee University of Information Technology},
-  year={2026},
-  doi={10.13140/RG.2.2.21779.13600}
+@article{Dev2026TRM,
+  title = {Transparent Reasoning Modules (TRM): A Multi-Stream Iterative Architecture},
+  author = {Dev, Shubham},
+  year = {2026},
+  doi = {10.13140/RG.2.2.21779.13600},
+  publisher = {ResearchGate}
 }
 ```
 
